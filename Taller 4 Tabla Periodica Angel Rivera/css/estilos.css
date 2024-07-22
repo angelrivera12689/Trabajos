@@ -1,0 +1,168 @@
+
+
+#principal{
+    float: left;
+    width: 1300px;
+}
+
+.filas{
+    
+    float: right;
+    width: 1250px;
+}
+
+.columnas{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin: 2px;
+    border: solid 1px #000;
+}
+
+
+.espacio1{
+ float: left;
+ width: 1100px;
+ margin: 2px;
+ border: #000;
+}
+
+.espacio2{
+    float: left;
+    width: 686px;
+    margin: 2px;
+    border: #000;
+   }
+
+.color-aguamarino{
+     
+    background-color: rgb(88, 214, 115);
+}
+
+.color-naranja{
+     
+    background-color: #F7DC6F;
+}
+
+
+.color-amarillo{
+     
+    background-color:#ffb347;
+}
+.color-verde1{
+     
+    background-color: #FADBD8;
+}
+.color-Averde{
+     
+    background-color: #D6EAF8 ;
+}
+.color-verde{
+     
+    background-color: #8fbc8f;
+}
+.color-Amorado{
+     
+    background-color: #239B56 ;
+}
+.color-rosado{
+     
+    background-color: rgb(225, 59, 142);
+}
+.color-morado{
+     
+    background-color: rgb(155, 89, 182);
+}
+.color-azul{
+     
+    background-color: rgb(61, 169, 227);
+}
+ div h1{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+   
+ }
+ div h2{
+    text-align: center;
+    margin: auto;
+   font-size: 5px;
+   font-weight: bold;
+ }
+
+ div h3{
+    text-align: right;
+    margin: 1px;
+    margin-top: -1px;
+    font-size: 6px;
+    font-weight: bold;
+ }
+
+ 
+ 
+ div h5{
+    text-align: center;
+    margin: 1px;
+    margin-top: 12px;
+    font-size: 10px;
+    font-weight: bold;
+ }
+
+ #pprincipal{
+    float: left;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 170px;
+ }
+.numero{
+    text-align: left;
+    margin: 1px;
+    margin-top: -1px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cuadrito{
+    background-color: #239B56 ;
+    margin-top: 54px;
+    margin-left: 290px;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #000;
+}
+.simbolo{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+   
+ }
+.numeroatomico{
+    text-align: right;
+    margin: 1px;
+    margin-top: -1px;
+    font-size: 12px;
+    font-weight: bold;
+ }
+
+.nombre{
+    text-align: center;
+    margin: auto;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .numero1{
+    text-align: left;
+    margin: 1px;
+    margin-top: -1px;
+    font-size: 15px;
+    font-weight: bold;
+}

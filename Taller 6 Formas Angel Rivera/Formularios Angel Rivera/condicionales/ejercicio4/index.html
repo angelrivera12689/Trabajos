@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4(con)</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/condicionales/ejercicio4/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <br><br>
+
+    <!--formulairio-->
+    <div class="formulario">
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-sm-4">
+                <div class="cuadro">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                          <h2>Formulario de cuadrados</h2>
+                          <input type="text" class="form-control" id="txtLado1" value="" placeholder="Ingresar lado 1" required > 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <div class="square red-border">
+
+                          </div>
+                       
+                          <input type="text" class="form-control" id="txtLado2" value="" placeholder="Ingresar lado 2" required > 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <div class="square green-border"></div>
+                 
+                          <input type="text" class="form-control" id="txtLado3" value="" placeholder="Ingresar lado 3" required > 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <div class="square blue-border">
+                            
+                          </div>
+
+                        </div>
+                        
+                        <div class="col-12" >
+                          <button class="btn btn-primary" type="button" onclick="calcularCuadrados()" >Enviar</button>
+                        </div>
+                      </form>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="cuadro2">
+                    <div class="col-md-12">
+                        <h2>Resultado</h2>
+                      </div>
+                    <div id="resultado">
+                      <div id="mostrar-cuadrados">
+                        <div class="cuadrado-rojo">
+                          <div class="square red-border">
+                          <h5 id="area-cuadro.-rojo" style="margin-top: 15px; color: red;"></h5>
+                          <p id="lado1" style="color: red;"></p>
+                          <p id="lado2" style="color: red;"></p>
+                          </div>
+
+                        </div>
+                        <div class="cuadrado-verde">
+                          <div class="square green-border">
+                            <h5 id="area-cuadro.-verde" style="margin-top: 15px; color: green;"></h5>
+                            <p id="lado3" style="color: green;"></p>
+                            <p id="lado4" style="color: green;"></p> </div>
+
+                        </div>
+                        <div class="cuadrado-azul">
+                          <div class="square blue-border">
+                            <h5 id="area-cuadro.-azul" style="margin-top: 15px; color: blue;"></h5>
+                            <p id="lado5" style="color: blue;"></p>
+                            <p id="lado6" style="color: blue;"></p> </div>
+                        </div>
+                        
+                        <div id="verificacion">
+                      
+                          <p style="margin-top: 75px; margin-left: -290px; color: black; font-weight: bold;">______________________________________________</p>
+                      
+                        </div>
+                        <div id="comprobacion">
+                          <h5 id="titulo" style="position: absolute; margin-top: 100px; margin-left: -193px;">
+
+                          </h5>
+                          <br>
+                          <div id="resultado-cuadro" style="margin-top: 103px; margin-left: -224px; position: absolute;"></div>
+                          <div id="imagen">
+                        
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div>
+
+                      </div>
+                    </div>
+                </div>
+              
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+          </div>
+
+    </div>
+     <!--/formulairio-->
+    
+
+
+
+    <script src="/boostrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/condicionales/ejercicio4/JS/index.js"></script>
+    <script src="/boostrap/validacion/validacion.js"></script>
+</body>
+</html>

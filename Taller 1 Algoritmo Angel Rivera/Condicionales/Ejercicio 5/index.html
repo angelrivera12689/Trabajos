@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacular la edad e tres personas</title>
+</head>
+<body>
+    <script>
+    let person1
+    let person2
+    let person3
+    let anioNac1 = 2007
+    let anioNac2 = 2015
+    let anioNac3 = 2005
+    let anioAct = 2024
+    let promedio  
+    let edadPer1
+    let edadPer2
+    let edadPer3
+
+    edadPer1= anioAct-anioNac1
+    edadPer2= anioAct-anioNac2
+    edadPer3= anioAct-anioNac3
+
+    promedio=(edadPer1+edadPer2+edadPer3)/3
+
+    console.log("El promedio de edades es: " +promedio)
+    
+//condicional para saber si el promedio de las personas estana en la mayoria de edad
+    if(promedio>=18){
+        if(edadPer1 && edadPer2 && edadPer3>=18){
+            console.log("todad las personas son mayores de edad")
+        } 
+    }
+    else{
+         console.log("El promedio de las personas estan en la minoria de edad")   
+
+//condicional para saber si la persona uno es mayode edad
+            if(edadPer1>=18){
+                console.log("la persona uno es mayor de edad")
+            }
+            else{
+                console.log("La persona uno es menor de edad")
+            }
+
+//condicional para saber si la persona dos es mayode edad
+            if(edadPer2>=18){
+                console.log("la persona dos es mayor de edad")
+            }
+            else{
+                console.log("La persona dos es menor de edad")
+            }
+//condicional para saber si la persona tres es mayode edad
+            if(edadPer3>=18){
+                console.log("la persona tres es mayor de edad")
+            }
+            else{
+                console.log("La persona tres es menor de edad")
+            }  
+         }
+    
+    </script>
+</body>
+</html>

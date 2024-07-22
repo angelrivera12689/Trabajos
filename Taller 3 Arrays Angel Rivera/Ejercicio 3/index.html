@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz en forma de X</title>
+</head>
+<body>
+    <script>
+
+        // tabla del 5
+        let arreglo5 = [];
+        let pares5 = [];
+        let impares5 = [];
+        let num3 = 1;
+        let matrixX5=[]
+        let sumasPares5
+        let sumasImpares5
+       
+
+        for (let num1 = 0; num1 < 5; num1++) {
+            arreglo5[num1] = [];//fila
+            for (let num2 = 0; num2 < 5; num2++) {
+                arreglo5[num1][num2] = num3 * 5;//columna
+                num3++;
+                if(arreglo5[num1][num2]%2 ==0){
+                    pares5.push(arreglo5[num1][num2]) 
+                }else{
+                    impares5.push(arreglo5[num1][num2])
+                }
+                //matrix X en 5
+                if(num1===num2 || num1+num2===4){
+                    matrixX5 += arreglo5[num1][num2] + "\t";
+                }else{
+                    matrixX5 += " \t";
+                }
+
+               sumasPares5 = 0;
+               for (let iteracion = 0; iteracion < pares5.length; iteracion++) {
+               sumasPares5 += pares5[iteracion];
+
+               sumasImpares5 = 0;
+               for(let iteracion2 = 0; iteracion2 < impares5.length; iteracion2++){
+                sumasImpares5 +=  impares5[iteracion2];
+               }
+        }
+            }
+            matrixX5 += "\n";
+        }
+        console.log("Matriz 5: ", arreglo5);
+        console.log("Pares de la tabla del 5: "+ pares5);
+        console.log("Impares de la tabla del 5: "+ impares5);
+        console.log("La suma total de los pares de la tabla del 5 es "+sumasPares5);
+        console.log("La suma total de los impares de la tabla del 5 es "+sumasImpares5);
+        console.log("Matriz generada en X con la tabla del 5: ");
+        console.log(matrixX5)
+   
+    </script>
+</body>
+</html>

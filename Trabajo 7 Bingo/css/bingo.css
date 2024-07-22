@@ -1,0 +1,95 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7af61;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    
+}
+
+.container {
+    margin-top: 20px;
+    height: auto;
+    width: max-content;
+    height: max-content;
+ 
+}
+
+.letrero {
+    font-size: 66px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row-cols-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.col {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #67a5e6;
+    color: white;
+    font-size: 34px; /* Tamaño del texto del título */
+    height: auto;
+    width: 400px;
+    margin-left: -155px;
+    margin-top: 90px;
+    
+}
+
+.separacion_letra {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte_numerica {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+      
+}
+
+.separacion_numero {
+   width: 70px;
+   height: auto;
+   margin: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffffff;
+   border: 1px solid #000000;
+   font-size: 6px;
+   /*Tamañodeltextodelosnúmeros*/max-width: 500px;
+   border-radius: 10px;
+ 
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+/* Estilos adicionales si es necesario */
+.subcaja{
+    height: auto;
+    width: 400px;
+}

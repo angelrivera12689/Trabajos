@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8(nor)</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/normales/ejercicio8/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="section">
+    <br><br>
+
+    <!--formulario cuadrado-->
+    <div class="hola">
+    <div class="formulario" id="pagoTotal">
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-sm-4">
+                <div class="cuadro">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                          <h2>Formulario de pago</h2>
+                          <input type="text" class="form-control" id="txtDias" value="" required placeholder="Insertar dias"> 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <br>
+                          <input type="text" class="form-control" id="txtValorDia" value="" required placeholder="Insertar valor del dia"> 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <br>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="button" onclick=" calcularSueldo()">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+              </div>
+              <div class="col">
+                <div class="cuadro2">
+                    <div class="col-md-12">
+                        <h2>Resultado</h2>
+                    </div>
+                    <div id="mostrar">
+
+                      <div id="mostrar-sueldo">
+                       
+                      </div>
+                      <div id="sueldo-mostrado">
+    
+                      </div>
+
+                      <div id="mostrar-salud">
+    
+                      </div>
+                      <div id="salud-mostrado">
+    
+                      </div>
+
+                      <div id="mostrar-pension">
+    
+                      </div>
+                      <div id="pension-mostrado">
+    
+                      </div>
+
+                      <div id="mostrar-arl">
+    
+                      </div>
+                      <div id="arl-mostrado">
+    
+                      </div>
+
+                      
+                      <div id="mostrar-deducible">
+    
+                      </div>
+                      <div id="deducible-mostrado">
+    
+                      </div>
+                      <div id="mostrar-linea">
+    
+                      </div>
+
+                      <div id="mostrar-total">
+    
+                      </div>
+                      <div id="total-mostrado">
+    
+                      </div>
+                    
+                    </div>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+    </div>
+  </div>
+    <!--/formulario cuadrado-->
+    <br>
+
+
+   
+
+    <script src="/boostrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/normales/ejercicio8/JS/index.js"></script>
+    <script src="/boostrap/validacion/validacion.js"></script>
+</body>
+</html>

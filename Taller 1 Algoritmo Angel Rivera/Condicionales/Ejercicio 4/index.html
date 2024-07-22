@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <script>
+
+    let areacuad1
+    let areacuad2
+    let areacuad3
+    let ladCuad1= 25
+    let ladCuad2=20
+    let LadCuad3=30
+
+    areacuad1=ladCuad1* ladCuad1
+    areacuad2=ladCuad2*ladCuad2
+    areacuad3=LadCuad3*LadCuad3
+
+        if(areacuad1==areacuad2 && areacuad1==areacuad3){
+            console.log("Las areas de los cuadrados son iguales")
+        }
+        else{
+            if(areacuad1>areacuad2 && areacuad1>areacuad3){
+                console.log("El area del cuadrado uno es mayor")
+            }
+            else{
+                if(areacuad2>areacuad3 && areacuad2>areacuad1){
+                    console.log("El area del cuadrado dos es mayor")
+                }
+                else{
+                    console.log("El area del cuadrado 3 es mayor")
+                }
+            }
+           
+        }
+
+    </script>
+</body>
+</html>

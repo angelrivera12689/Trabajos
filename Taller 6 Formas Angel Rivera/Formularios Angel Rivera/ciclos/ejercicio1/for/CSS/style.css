@@ -1,0 +1,145 @@
+
+.cuadro{
+    border: 2px solid #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 370px;
+    height: 260px;
+    padding: 10px;
+}
+
+.cuadro2{
+    border: 2px solid #000;
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 390px;
+    height: 160px;
+    padding: 10px;
+}
+.cuadro2 h2{
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 388px;  
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(207, 34, 34);
+}
+
+.cuadro h2{
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 368px;  
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(153, 224, 13);
+}
+.hola{
+    border: 2px solid #000;
+     margin-top: -10px;
+    margin-left: 160px;
+    width: 1100px;  
+    height: 300px;
+}
+
+
+.cuadro input{
+    border: none; 
+    border-bottom: 3px solid rgb(156, 150, 150);
+    width: 300px; 
+    border-radius: 1px;
+   
+}
+
+.cuadro button{
+    margin-top: -10px;
+}
+
+
+.cuadro input{
+    border: none; 
+    border-bottom: 3px solid rgb(236, 32, 32);
+    width: 300px; 
+    border-radius: 1px;
+   
+}
+
+.cuadro button{
+    margin-top: -10px;
+}
+
+
+
+.cuadro input{
+    border: none; 
+    border-bottom: 3px solid rgb(156, 150, 150);
+    width: 300px; 
+    border-radius: 1px;
+   
+}
+
+.cuadro button{
+    margin-top: -10px;
+}
+.cuadro .fa-comments {
+    position: absolute;
+    left: 380px;
+    top: 110px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    
+}
+
+
+
+.cuadro input{
+    border: none; 
+    border-bottom: 3px solid rgb(156, 150, 150);
+    width: 300px; 
+    border-radius: 1px;
+   
+}
+
+.cuadro button{
+    margin-top: -10px;
+}
+.cuadro .fa-comments {
+    position: absolute;
+    left: 380px;
+    top: 110px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    
+}
+
+
+
+.cuadro input{
+    border: none; 
+    border-bottom: 3px solid rgb(156, 150, 150);
+    width: 300px; 
+    border-radius: 1px;
+   
+}
+
+.cuadro button{
+    margin-top: -10px;
+}
+.cuadro .fa-comments {
+    position: absolute;
+    left: 380px;
+    top: 110px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    
+}

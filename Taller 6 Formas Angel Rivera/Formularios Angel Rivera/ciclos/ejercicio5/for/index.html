@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5(for)</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/ciclos/ejercicio5/for/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <br><br>
+<div class="hola">
+    <!--formulario-->
+    <div class="formulario">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                    <div class="cuadro">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-12">
+                                <h2>Tablas de multimplicar</h2>
+                                <input type="number" class="form-control" id="txtTablaInicio" value="" required placeholder="Ingrese tabla de inicio">
+                                <div class="valid-feedback">Campo lleno</div>
+                                <br>
+                                <input type="number" class="form-control" id="txtTablaFin" value="" required placeholder="Ingrese tabla de fin">
+                                <div class="valid-feedback">Campo lleno</div>
+                                <br>
+                                
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="button" onclick="generarTablas()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cuadro2">
+                        <div class="col-md-12">
+                            <h2>Resultado</h2>
+                            <div id="tabla-multi">
+                                <div id="titulo-tabla">
+                                    <h5 id="nombre-tabla"></h5>  
+                                </div>
+                                <div id="numeros">
+                                    <p id="numero-multi"></p>
+                               
+                                </div>
+                            
+                            </div>
+                            
+                            <div id="comprobacion">
+                                <div id="pares">
+                                    <p id="cantidad-pares"></p>
+                                </div>
+                                <div id="impares">
+                                    <p id="cantidad-impares"></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                 
+                 
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--/formulario-->
+
+    <script src="/boostrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/ciclos/ejercicio5/for/JS/index.js"></script>
+    <script src="/boostrap/validacion/validacion.js"></script>
+</body>
+</html>

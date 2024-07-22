@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while5</title>
+</head>
+<body>
+    <script>
+        let tabla1;
+        let tabla2;
+        let tablaPar;
+        let tablaIpar;
+        let limit1;
+        let limit2;
+        let result;
+
+        tabla1 = 0;
+        limit1 = 5;
+        limit2 = 5;
+
+        tablaPar  = 0;
+        tablaIpar = 0;
+
+        while(tabla1 < limit1){
+            tabla1 = tabla1 + 1;
+            tabla2 = 0;
+
+            while(tabla2 < limit2){
+                tabla2 = tabla2 + 1;
+                result = tabla1 * tabla2;
+
+                console.log(tabla1 + "x" + tabla2 + "=" + result);
+
+                if(result%2==0){
+                    console.log("Buzz");
+
+                    tablaPar = tablaPar + 1;
+
+                }
+                else{
+                    console.log("Bass");
+
+                    tablaIpar = tablaIpar + 1;
+                }
+
+            }
+
+        }
+            console.log("pares" + tablaPar);
+            console.log("impares" + tablaIpar);
+
+    </script>
+    
+</body>
+</html>

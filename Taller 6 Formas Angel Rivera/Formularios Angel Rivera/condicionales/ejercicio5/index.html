@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5(con)</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/condicionales/ejercicio5/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <br><br>
+<div class="hola">
+    <!--formulario-->
+    <div class="formulario">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                    <div class="cuadro">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-12">
+                                <h2>Formulario de edades</h2>
+                                <input type="date" class="form-control" id="txtanio1" placeholder="Ingresar fecha de nacimiento 1" required>
+                                <div class="valid-feedback">Campo lleno</div>
+                                <br>
+                                <input type="date" class="form-control" id="txtanio2" placeholder="Ingresar fecha de nacimiento 2" required>
+                                <div class="valid-feedback">Campo lleno</div>
+                                <br>
+                                <input type="date" class="form-control" id="txtanio3" placeholder="Ingresar fecha de nacimiento 3" required>
+                                <div class="valid-feedback">Campo lleno</div>
+                                <br>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="button" onclick="EdadComprobada()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cuadro2">
+                        <div class="col-md-12">
+                            <h2>Resultado</h2>
+                        </div>
+                        <div id="resultado">
+                            <div id="verificacion-personas">
+                                <div id="persona-1"></div>
+                                <div id="persona-2"></div>
+                                <div id="persona-3"></div>
+                                <div id="promedio"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--/formulario-->
+
+    <script src="/boostrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/condicionales/ejercicio5/JS/index.js"></script>
+    <script src="/boostrap/validacion/validacion.js"></script>
+
+</body>
+</html>

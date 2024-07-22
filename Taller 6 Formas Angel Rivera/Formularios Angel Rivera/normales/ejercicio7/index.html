@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7(nor)</title>
+    <link rel="stylesheet" href="/boostrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/normales/ejercicio7/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="section">
+    <br><br>
+   
+
+    <!--formulario cuadrado-->
+    <div class="formulario" id="figura-cuadrado">
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-sm-4">
+                <div class="cuadro">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                          <h2>Area de cuadrado</h2>
+                          <input type="text" class="form-control" id="txtLado1" value="" required placeholder="Insertar lado1"> 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <br>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="button" onclick="area_Cuadrado()">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+              </div>
+              <div class="col">
+                <div class="cuadro2"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="col-md-12">
+                        <h2>Resultado</h2>
+                    </div>
+                    <div id="mostrar">
+                        <div id="lado1" class="lado1">
+                            <!-- Lado 1 -->
+                        </div>
+                        <div class="imagen-geometrica" style="display: inline-block;">
+                            <img src="/imagenes/figuras_geometricas/cuadrado.jpg" alt="Imagen cuadrado">
+                        </div>
+                        <div id="lado2" class="lado2">
+                            <!-- Lado 2 -->
+                        </div>
+                        <div id="area" class="area">
+                            <!-- Área -->
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+    </div>
+    <!--/formulario cuadrado-->
+    <br>
+
+
+     <!--formulario triangulo-->
+     <div class="formulario" id="figura-triangulo" > 
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-sm-4">
+                <div class="cuadro">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                          <h2>Area de triangulo</h2>
+                          <input type="text" class="form-control" id="txtAlturaTri" value="" required placeholder="Insertar base"> 
+                          <div class="valid-feedback">
+                           Campo lleno
+                          </div>
+                          <br>
+                          <input type="text" class="form-control" id="txtBaseTri" value="" required placeholder="Insertar altura"> 
+                          <br>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="button" onclick="area_Triangulo()">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+              </div>
+              <div class="col">
+                <div class="cuadro2">
+                    <div class="col-md-12">
+                        <h2>Resultado</h2>
+                    </div>
+                    <div id="mostrar">
+                        <div id="parte-arriba" >
+                            <p id="altura-tri" style="color: green;"></p>
+                            <p id="area-tri" style="color: red;"></p>
+                            <p id="altura-tri-2" style="color: green;"></p>
+                        </div>
+                      
+                        <div class="imagen-geometrica" style="display: inline-block;" >
+                            <img src="/imagenes/figuras_geometricas/triangulo.jpg" alt="Imagen cuadrado" style="height: 80px;">
+                        </div>
+
+                        <div id="parte-abajo" >
+                            <p id="base-tri" style="color: blue;"></p>
+                       </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+    </div>
+    <!--/formulario triangulo-->
+    <br>
+
+         <!--formulario rectangulo-->
+         <div class="formulario" id="figura-rectangulo" > 
+            <div class="container text-center">
+                <div class="row align-items-center">
+                  <div class="col-sm-4">
+                    <div class="cuadro">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-12">
+                              <h2>Area de Rectangulo</h2>
+                              <input type="text" class="form-control" id="txtAlturaRec" value="" required placeholder="Insertar base"> 
+                              <div class="valid-feedback">
+                               Campo lleno
+                              </div>
+                              <br>
+                              <input type="text" class="form-control" id="txtBaseRec" value="" required placeholder="Insertar altura"> 
+                              <br>
+                            </div>
+                            <div class="col-12">
+                              <button class="btn btn-primary" type="button" onclick="area_Rectangulo()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="cuadro2">
+                        <div class="col-md-12">
+                            <h2>Resultado</h2>
+                        </div>
+                        <div id="mostrar">
+    
+                            <div id="parte-arriba-rec" >
+                                <p id="altura-Rect" style="color: green; margin-left: 90px; margin-top: -30px;"></p>
+                                <p id="area-Rect" style="color: red; margin-left: 30px; margin-top: -30px;"></p>
+                            </div>
+                          
+                            <div class="imagen-geometrica" style="display: inline-block;" >
+                                <img src="/imagenes/figuras_geometricas/rectangulo.jpg" alt="Imagen cuadrado" style="height: 80px;">
+                            </div>
+    
+                            <div id="parte-abajo-rec" >
+                                <p id="base-Rect" style="color: blue;"></p>
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+              </div>
+        </div>
+        <!--/formulario rectangulo-->
+
+         <!--modal del cuadrado-->
+
+    <!-- Button trigger modal -->
+
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Figura Cuadrado</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="mostrar">
+          <div id="lado1" class="lado1">
+              <!-- Lado 1 -->
+          </div>
+          <div class="imagen-geometrica" style="display: inline-block;">
+              <img src="/imagenes/figuras_geometricas/cuadrado.jpg" alt="Imagen cuadrado">
+          </div>
+          <div id="lado2" class="lado2">
+              <!-- Lado 2 -->
+          </div>
+          <div id="area" class="area">
+              <!-- Área -->
+          </div>
+      </div>
+        
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+    
+
+    <!--/modal del cuadrado-->
+
+    <script src="/boostrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/normales/ejercicio7/JS/index.js"></script>
+    <script src="/boostrap/validacion/validacion.js"></script>
+</body>
+</html>
